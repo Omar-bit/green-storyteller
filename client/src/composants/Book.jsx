@@ -1,10 +1,10 @@
 import HTMLFlipBook from 'react-pageflip';
 import { CiLocationArrow1 } from "react-icons/ci";
 import { useRef } from 'react';
-import cover from "./../assets/TT.jpg";
+import cover from "./../../public/TT.jpg";
 import { GrLinkPrevious } from "react-icons/gr";
 import { GrLinkNext } from "react-icons/gr";
-import final from "../assets/final.jpg";
+import final from "./../../public/final.jpg";
 
 
 

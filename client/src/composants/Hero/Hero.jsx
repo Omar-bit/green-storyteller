@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
-import HeroImg from "../../assets/p.png";
+import HeroImg from "./../../../public/p.png";
 
 
 
