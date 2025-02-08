@@ -12,3 +12,6 @@ how to run the project
 -run npm i inside client folder
 -create .env file inside client folder
 -add VITE_BACKEND_URI variable to the .env inside the client
+
+-run "npm run dev" inside the client
+-run "npm start" inside the server
