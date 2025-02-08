@@ -1,0 +1,17 @@
+
+@import "tailwindcss";
+
+.earth{
+    animation: jump 1s infinite;
+}
+.end{
+    background: url("./assets/cover.jpg") no-repeat fixed cover;
+}
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
