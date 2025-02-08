@@ -5,8 +5,8 @@ how to run the project
 
 -run npm i inside server folder
 -create .env file inside server folder
--add GEMINI_API_KEY variable to the .env inside the client which is containing the gemini api key
--add PORT  variable to the .env inside the client which is containing the port of your desired port to run the backend on
+-add GEMINI_API_KEY variable to the .env inside the server which is containing the gemini api key
+-add PORT  variable to the .env inside the server which is containing the port of your desired port to run the backend on
 
 
 -run npm i inside client folder
