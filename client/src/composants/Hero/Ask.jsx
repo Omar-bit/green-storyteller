@@ -1,6 +1,5 @@
 import { useState } from "react";
 import axios from "axios";
-const story="lorem  ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur Excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum "
 import Book from "./../Book";
 import Signs from "../Signs";
 import TextToSpeech from "../TextToSpeech";
@@ -16,7 +15,7 @@ const Ask = () => {
     async function generateStory(){
         setLoading(true);
         try{
-            const {data} = await axios.post(`${import.meta.env.BACKEND_URL}/generate-story`,{
+            const {data} = await axios.post(`${import.meta.env.VITE_BACKEND_URI}/generate-story`,{
                 prompt
             })
             let sessions = localStorage.getItem("sessions");
